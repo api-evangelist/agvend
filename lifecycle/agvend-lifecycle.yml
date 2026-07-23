@@ -1,0 +1,12 @@
+generated: '2026-07-17'
+method: searched
+source: https://status.agvend.com/
+status_page: https://status.agvend.com/
+notes: >-
+  AgVend operates a hosted status page (status.agvend.com) with real-time
+  component status, a scheduled-maintenance calendar (/maintenance) and an
+  incident history (/incidents). No public versioning policy, deprecation
+  policy (RFC 8594 Sunset/Deprecation headers) or SLA document was found on
+  the public surface; the AgVend platform API ("API Access Driver") is a gated
+  customer feature documented in the AgVend Help Center rather than a public
+  developer portal, so lifecycle governance is not publicly published.

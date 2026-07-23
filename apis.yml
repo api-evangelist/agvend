@@ -1,7 +1,16 @@
 aid: agvend
 name: Agvend
-description: Agvend is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  AgVend is an agricultural technology company founded in 2017 (Austin, TX) that
+  provides digital engagement and commerce software to agricultural retailers,
+  cooperatives, manufacturers, and distributors. Its white-labeled Grower Portal
+  (web and mobile) gives ag retailers a branded storefront, CRM, sales enablement,
+  digital billing, and integrated payments, while its Nexus product extends the
+  platform to manufacturers and distributors across the ag supply chain. The
+  platform integrates with major ag and energy ERPs, agronomy planning tools, and
+  grain and financing systems, and exposes an API Access Driver that lets customers
+  pull structured platform data into external reporting and BI tools such as Power
+  BI. Backed by 8vc and Tidemark.
 url: https://raw.githubusercontent.com/api-evangelist/agvend/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,30 @@ x-backed-by:
 - 8vc
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://www.agvend.com/wp-content/uploads/2024/04/homepage-banner-v3.jpg
 tags:
 - Company
+- Agriculture
+- AgTech
+- Digital Commerce
+- Grower Portal
+- Ag Retail
+- Payments
+- ERP Integration
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/agvend-domain-security.yml
+- type: Lifecycle
+  url: lifecycle/agvend-lifecycle.yml
+- type: StatusPage
+  url: https://status.agvend.com/
 - type: Website
   url: https://agvend.com
+- type: Blog
+  url: https://www.agvend.com/blog/
+- type: PrivacyPolicy
+  url: https://www.agvend.com/privacy-policy/
+- type: HelpCenter
+  url: https://agvendhelp.zendesk.com/hc/en-us
+- type: Support
+  url: https://agvendhelp.zendesk.com/hc/en-us
+- type: APIReference
+  url: https://agvendhelp.zendesk.com/hc/en-us/articles/16434028871693-Using-AgVend-APIs
+- type: Careers
+  url: https://www.agvend.com/careers/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
